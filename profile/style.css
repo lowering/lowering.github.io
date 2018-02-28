@@ -1,0 +1,73 @@
+.profile {
+    margin-top: 20px;
+}
+
+.profile .material-icons {
+    vertical-align: middle;
+    padding-right: 10px;
+}
+
+/*基本信息*/
+.profile-information { }
+.profile-information p{
+    border-bottom: 1px dashed #dddddd;
+}
+
+/*教育信息*/
+.profile-hope,
+.profile-education {
+    text-align: center;
+}
+/*工作经历*/
+.profile-history { }
+
+/*项目经验*/
+.profile-experience {
+    padding-left: 2rem;
+}
+.profile-experience .profile-overview {
+    text-align: left;
+}
+
+.profile-hope .profile-label,
+.profile-education .profile-label,
+.profile-history .profile-label,
+.profile-experience .profile-label {
+    display: none;
+}
+
+/*自我介绍*/
+.profile-introduction { }
+/*基本信息*/
+.profile-skill { }
+/*基本信息*/
+.profile-others { }
+
+
+.line {
+    position: relative;
+}
+.line-text {
+    position: absolute;
+    left: 2rem;
+    top: -11px;
+    background-color: #fff;
+    padding: 0 5px;
+    color: #0e8c8c;
+}
+
+@media (max-width: 576px) {
+    .profile-hope,
+    .profile-education,
+    .profile-experience {
+        text-align: left;
+        padding-left: 0;
+    }
+
+    .profile-hope .profile-label,
+    .profile-education .profile-label,
+    .profile-experience .profile-label,
+    .profile-history .profile-label {
+        display: inline;
+    }
+}
